@@ -1,7 +1,7 @@
 body {
     background-color: #152227;
     color: white;
-    transition: all 1s ease-in-out; /* Apply transition to body here */
+    transition: all 1s ease-in-out;
 }
 
 h1, .sentence2 {
@@ -11,9 +11,9 @@ h1, .sentence2 {
 
 h1 {
     font-family: Lato;
-    font-size: 30px;
+    font-size: 60px; /* Size doubled */
     font-weight: 700;
-    line-height: 45px;
+    line-height: 90px; /* Size doubled */
 }
 
 .container {
@@ -21,7 +21,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 200vh; /* Size doubled */
 }
 
 .logo-name-container, .sentence2-container {
@@ -36,17 +36,17 @@ h1 {
 }
 
 .logo, .eyes {
-    width: 61px; /* Adjust if different for .eyes */
-    height: 60px; /* Adjust if different for .eyes */
+    width: 122px; /* Size doubled */
+    height: 120px; /* Size doubled */
 }
 
 .eyes {
-    margin-right: 10px;
+    margin-right: 20px; /* Margin doubled */
 }
 
 .image {
-    width: 400px;
-    height: 400px;
+    width: 800px; /* Size doubled */
+    height: 800px; /* Size doubled */
     border-radius: 50%;
 }
 
@@ -54,21 +54,21 @@ h1 {
     background-color: #2A4045;
     color: white;
     border: none;
-    border-radius: 40px;
-    padding: 30px 40px;
-    font-size: 20px;
-    margin-top: 20px;
+    border-radius: 80px; /* Size doubled */
+    padding: 60px 80px; /* Padding doubled */
+    font-size: 40px; /* Font size doubled */
+    margin-top: 40px; /* Margin doubled */
     cursor: pointer;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25); /* Unchanged */
     transition: all 1s ease-in-out;
 }
 
 .sentence1 {
     font-family: Lato;
-    font-size: 16px;
+    font-size: 32px; /* Font size doubled */
     font-style: italic;
     font-weight: 500;
-    letter-spacing: 1.28px;
+    letter-spacing: 2.56px; /* Letter spacing doubled */
 }
 
 .white-background {
@@ -90,11 +90,11 @@ h1 {
 .invisible {
     visibility: hidden;
     opacity: 0;
-    transition: visibility 0s 1s, opacity 1s linear; /* Adjust transition to make it smooth */
+    transition: visibility 0s 1s, opacity 1s linear;
 }
 
 .gradient-background {
-    background: linear-gradient(to right, #2A4045, white); /* Gradient from original color to white */
+    background: linear-gradient(to right, #2A4045, white);
 }
 
 .fade {
