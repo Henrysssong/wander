@@ -11,9 +11,9 @@ h1, .sentence2 {
 
 h1 {
     font-family: Lato;
-    font-size: 60px; /* Size doubled */
+    font-size: 45px; /* Increased by 1.5x */
     font-weight: 700;
-    line-height: 90px; /* Size doubled */
+    line-height: 67.5px; /* Increased by 1.5x */
 }
 
 .container {
@@ -21,7 +21,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 200vh; /* Size doubled */
+    height: 100vh; /* Increased by 1.5x */
 }
 
 .logo-name-container, .sentence2-container {
@@ -36,17 +36,17 @@ h1 {
 }
 
 .logo, .eyes {
-    width: 122px; /* Size doubled */
-    height: 120px; /* Size doubled */
+    width: 91.5px; /* Increased by 1.5x */
+    height: 90px; /* Increased by 1.5x */
 }
 
 .eyes {
-    margin-right: 20px; /* Margin doubled */
+    margin-right: 15px; /* Increased by 1.5x */
 }
 
 .image {
-    width: 800px; /* Size doubled */
-    height: 800px; /* Size doubled */
+    width: 600px; /* Increased by 1.5x */
+    height: 600px; /* Increased by 1.5x */
     border-radius: 50%;
 }
 
@@ -54,21 +54,21 @@ h1 {
     background-color: #2A4045;
     color: white;
     border: none;
-    border-radius: 80px; /* Size doubled */
-    padding: 60px 80px; /* Padding doubled */
-    font-size: 40px; /* Font size doubled */
-    margin-top: 40px; /* Margin doubled */
+    border-radius: 60px; /* Increased by 1.5x */
+    padding: 45px 60px; /* Increased by 1.5x */
+    font-size: 30px; /* Increased by 1.5x */
+    margin-top: 30px; /* Increased by 1.5x */
     cursor: pointer;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25); /* Unchanged */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
     transition: all 1s ease-in-out;
 }
 
 .sentence1 {
     font-family: Lato;
-    font-size: 32px; /* Font size doubled */
+    font-size: 24px; /* Increased by 1.5x */
     font-style: italic;
     font-weight: 500;
-    letter-spacing: 2.56px; /* Letter spacing doubled */
+    letter-spacing: 1.92px; /* Increased by 1.5x */
 }
 
 .white-background {
