@@ -58,9 +58,11 @@ h1 {
 }
 
 .join-waitlist-button {
-    background-color: #2A4045;
+    background-image: linear-gradient(to right, #94a1ab, #2A4045);
     color: white;
     border: none;
+    font-family: lexend;
+    font-weight: 700;
     border-radius: 60px; /* Increased by 1.5x */
     padding: 45px 60px; /* Increased by 1.5x */
     font-size: 30px; /* Increased by 1.5x */
@@ -83,7 +85,8 @@ h1 {
 }
 
 .pink-background {
-    background-color: pink;
+    background-image: linear-gradient(to right, #96c0e0, white, #ddb503);
+    color: black;
 }
 
 .black-text {
