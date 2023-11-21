@@ -4,6 +4,13 @@ body {
     transition: all 1s ease-in-out;
 }
 
+.sentence2 {
+    font-family: Lato;
+    font-size: 24px; /* Increased by 1.5x */
+    font-weight: 500;
+    letter-spacing: 1.92px; /* Increased by 1.5x */
+}
+
 h1, .sentence2 {
     word-wrap: break-word;
     transition: all 1s ease-in-out;
@@ -45,8 +52,8 @@ h1 {
 }
 
 .image {
-    width: 600px; /* Increased by 1.5x */
-    height: 600px; /* Increased by 1.5x */
+    width: 500px; /* Increased by 1.5x */
+    height: 500px; /* Increased by 1.5x */
     border-radius: 50%;
 }
 
@@ -64,11 +71,11 @@ h1 {
 }
 
 .sentence1 {
-    font-family: Lato;
-    font-size: 24px; /* Increased by 1.5x */
+    font-family: Lexend;
+    font-size: 20px; /* Increased by 1.5x */
     font-style: italic;
-    font-weight: 500;
-    letter-spacing: 1.92px; /* Increased by 1.5x */
+    font-weight: 600;
+    word-wrap: break-word
 }
 
 .white-background {
@@ -84,13 +91,7 @@ h1 {
 }
 
 .hidden {
-    display: none;
-}
-
-.invisible {
     visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s 1s, opacity 1s linear;
 }
 
 .gradient-background {
